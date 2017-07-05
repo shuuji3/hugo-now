@@ -1,0 +1,3 @@
+{{ range (where .Site.Files "Extension" "js") }}
+<script type="text/javascript" src="{{ .Path }}"></script>
+{{ end }}

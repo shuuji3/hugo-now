@@ -26,12 +26,13 @@ tags: ["bootstrap", "javascript", "noscript"]
 
 <div id="js-enabled-msg" class="bd-callout bd-callout-success js-enabled">
     <h4>Javascript Enabled</h4>
-    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported</p>p>
+    <p>While Hugo Now assumes javascript is disabled, full Bootstrap JS is supported.</p>
     <p>(see <code>partials/javascript.html</code>)</p>
 </div>
 
-<!-- jQuery not loaded yet -->
-<script type="text/javascript">
-    var element = document.getElementById('js-enabled-msg')
-    element.style.display = 'block';
-</script>
+<div class="alert alert-warning alert-dismissible fade show" role="alert">
+  <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+    <span aria-hidden="true">&times;</span>
+  </button>
+  <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+</div>
