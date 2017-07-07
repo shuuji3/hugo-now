@@ -5,8 +5,9 @@
     <div class="container">
       <article class="article">
         {{ partial "post-metadata-single" . }}
-        {{ partial "table-of-contents" . }}
         <div class="content">
+          {{ partial "banner" . }}
+          {{ partial "table-of-contents" . }}
           <!-- supports emoji -->
           {{ .Content | emojify }}
         </div>

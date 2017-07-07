@@ -2,7 +2,7 @@
 title: "Table Of Contents"
 date: 2017-07-05T23:02:42-05:00
 tags: ["demo", "table of contents"]
-draft: true
+toc: true
 ---
 
 <!--more-->
